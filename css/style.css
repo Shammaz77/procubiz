@@ -1486,7 +1486,7 @@ menu button
   display: block;
   width: 28px;
   height: 2.5px;
-  background: #d599ff;
+  background: #1d0031;
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
   -webkit-transition: inherit;
@@ -1920,7 +1920,7 @@ banner
 }
 
 .mil-inner-banner .mil-banner-content {
-  padding: 150px 0 0 0;
+  padding: 210px 0 0 0;
 }
 
 @media screen and (max-width: 1200px) {
@@ -2594,21 +2594,22 @@ partners
 .mainnn{
 
 }
-.mainnn{
-  width: 90%;
+.mainnn {
+  width: 100%;
   margin: auto;
   display: table;
+  background-color: #ffffff;
   position: absolute;
   z-index: 1000000000;
   left: 0;
-  padding: 25px 0px 20px 0px;
+  padding: 25px 6% 20px 6%;
   right: 0;
 }
 .mil-partner-frame img {
   width: 130%;
 }
 .digi{
-  width: 130px;
+  width: 110px;
 }
 /* -------------------------------------------
 
@@ -2998,7 +2999,7 @@ team
 social icons
 
 ------------------------------------------- */
-.mil-social-icons {
+.mil-social-icons {   
   padding: 0;
   margin: 0;
   display: -webkit-box;
@@ -4805,6 +4806,22 @@ html.is-animating .mil-frame {
     opacity: 1;
   }
 }
+
+@media screen and (max-width: 1400px) {
+  .digi {
+    width: 80px;
+  }
+  .mainnn {
+    padding: 18px 6% 10px 6%;
+  }
+  .text-l{
+    font-size: 50px;
+  }
+  .nono-screen{
+    display: none;
+  }
+}
+
 
 html.is-animating .mil-curtain {
   opacity: 1;
